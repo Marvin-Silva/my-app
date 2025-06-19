@@ -1,0 +1,10 @@
+CREATE SCHEMA IF NOT EXISTS gimme_a_car;
+USE gimme_a_car;
+
+CREATE TABLE IF NOT EXISTS car (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    brand VARCHAR(255) NOT NULL,
+    model VARCHAR(255) NOT NULL,
+    year INT NOT NULL
+);
+
